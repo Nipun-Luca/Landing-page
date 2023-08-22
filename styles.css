@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    height: 20px;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+}
+
+#logo:hover {
+    content: url("./images/Void_Heart.webp");
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    gap: 16px;
+}
+
+
+/* SECTION1 */
+
+.content-1 {
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+#map-hallownest {
+    max-width:100%;
+    height: auto;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION 2 */
+.content2 {
+    height: 350px;
+}
