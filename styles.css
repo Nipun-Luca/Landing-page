@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    min-height: 100vh;
 }
 
 
@@ -38,7 +37,7 @@ ul {
 /* SECTION1 */
 
 .content-1 {
-    height: 350px;
+    height: 400px;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     display: flex;
@@ -58,6 +57,44 @@ ul {
 }
 
 /* SECTION 2 */
-.content2 {
-    height: 350px;
+.content-2 {
+    height: 400px;
+    width: auto;
+    background-image: url("/images/Menu_Theme_Hidden_Dreams.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mob {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
