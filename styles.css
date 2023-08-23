@@ -37,29 +37,24 @@ ul {
 /* SECTION1 */
 
 .content-1 {
-    height: 400px;
+    max-width: 100%;
+    height: auto;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #map-hallownest {
-    max-width:100%;
-    height: auto;
-}
-
-.introduction {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 400px;
+    width: auto;
 }
 
 /* SECTION 2 */
 .content-2 {
-    height: 400px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
     background-image: url("./images/Menu_Theme_Hidden_Dreams.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,9 +67,18 @@ ul {
     align-items: center;
 }
 
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .characters {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box {
