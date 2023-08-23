@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    gap: 20px;
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -39,8 +41,12 @@ ul {
 .content-1 {
     max-width: 100%;
     height: auto;
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+    background-image: url("./images/Menu_Theme_Lifeblood.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -50,6 +56,7 @@ ul {
     height: 400px;
     width: auto;
 }
+
 
 /* SECTION 2 */
 .content-2 {
@@ -101,4 +108,91 @@ ul {
     justify-content: center;
     align-items: center;
     width: 200px;
+}
+
+
+/* SECTION 3 */
+.content-3 {
+    max-width: 100%;
+    height: 440px;
+    background-image: url("./images/Menu_Theme_Godmaster.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+#cite {
+    color: rgb(164, 164, 164);
+    margin-left: auto;
+}
+
+
+/* SECTION 4 */
+.content-4 {
+    max-width: 100%;
+    height: 440px;
+    background-image: url("./images/Menu_Theme_The_Grimm_Troupe.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-image: radial-gradient(rgb(113, 0, 0) , black);
+    padding: 20px 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Buttons */
+button {
+    align-self: center;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px 6px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0078a0;
+    color: white;
+}
+
+
+/* Footer */
+footer {
+    background-color: radial-gradient(#000f58 , black);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+audio {
+    color: white;
 }
