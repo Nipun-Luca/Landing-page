@@ -60,7 +60,7 @@ ul {
 .content-2 {
     height: 400px;
     width: auto;
-    background-image: url("/images/Menu_Theme_Hidden_Dreams.webp");
+    background-image: url("./images/Menu_Theme_Hidden_Dreams.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
